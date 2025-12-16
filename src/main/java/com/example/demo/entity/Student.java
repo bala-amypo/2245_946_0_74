@@ -10,7 +10,7 @@ public class Student{
         return id;
     }
 
-    public void setId(int id){
+    public void setId(Long id){
         this.id=id;
     }
 
@@ -28,6 +28,14 @@ public class Student{
 
     public void setEmail(String email){
         this.email=email;
+    }
+
+    public float getCgpa(){
+        return cgpa;
+    }
+
+    public void setCgpa(float cgpa){
+        this.cgpa=cgpa;
     }
 
 }
