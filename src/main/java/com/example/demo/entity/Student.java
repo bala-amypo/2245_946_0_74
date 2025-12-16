@@ -1,16 +1,16 @@
 package com.example.demo.entity;
 
 public class Student{
-    private Long id;
+    private int id;
     private String name;
     private String email;
     private float cgpa;
 
-    public Long getId(){
+    public int getId(){
         return id;
     }
 
-    public void setId(Long id){
+    public void setId(int id){
         this.id=id;
     }
 
@@ -36,6 +36,17 @@ public class Student{
 
     public void setCgpa(float cgpa){
         this.cgpa=cgpa;
+    }
+
+    public Student(int id, String name, String email, float cgpa){
+        this.id=id;
+        this.name=name;
+        this.email=email;
+        this.cgpa=cgpa;
+    }
+
+    public Student(){
+        
     }
 
 }
