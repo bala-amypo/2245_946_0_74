@@ -28,8 +28,8 @@ public class StudentServiceimpl implements StudentService{
     }
 
     @Override
-    public void deleteData(int id){
-        return repo.deleteById(id);
+    public void deleteDataById(int id){
+        repo.deleteById(id);
     }
 
 

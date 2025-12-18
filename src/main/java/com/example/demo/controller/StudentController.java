@@ -52,7 +52,7 @@ public class StudentController {
     Optional<Student> student = ser.fetchDataById(id);
 
     if(student.isPresent()){
-        ser.deleteData(id);
+        ser.deleteDataById(id);
 
         return "Data deleted Successfully";
     }
