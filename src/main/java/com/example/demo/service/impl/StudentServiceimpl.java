@@ -29,7 +29,7 @@ public class StudentServiceimpl implements StudentService{
 
     @Override
     public void deleteData(int id){
-        return repo.deleteById(id);
+        return repo.deleteById;
     }
 
 
