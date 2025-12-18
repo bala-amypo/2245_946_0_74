@@ -44,9 +44,5 @@ public class StudentController {
     else{
         return id + "not found";
     }
-
-
-
-
     }
 }
